@@ -1,0 +1,51 @@
+<% if @book.errors.any? %>
+<!--↑を入れると３４行目はエラーになったときだけ読み込まれる-->
+<p>文字が入力されていないerrorです</p>
+<% @book.errors.full_messages.each do |message| %>
+    <div class="form-error">
+        <%= message %>
+    </div>
+
+<% end %>
+<% end %>
+
+
+
+<div class="edit-body">
+<div class="block2">
+<%= form_with model:@book, local: true do |f| %>
+
+<div class="edit-field">
+<h1 class="edit-h1">Editing Book</h1>
+  <div class="edit-title">
+
+  <h4 class="edit-h4">title</h4>
+  <div class="edit-title-text">
+  <%= f.text_field :title %>
+  </div>
+  </div>
+  </div>
+
+  <div class="edit-field">
+  <h4 class="edit-h4">Body</h4>
+  <div class="edit-body-text">
+  <%= f.text_area :body %>
+  </div>
+  </div>
+
+  <%= f.submit 'Update Book' %>
+
+  </div>
+  <!-- -->
+
+  <div class="block">
+  <%= link_to "Show", book_path(@book.id) %>
+  <p class="edit-a">|</p>
+  <%= link_to "Back", books_path %>
+<% end %>
+
+</div>
+
+</div>
+
+</div>

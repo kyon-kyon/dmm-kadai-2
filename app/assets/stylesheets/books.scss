@@ -1,0 +1,212 @@
+// Place all the styles related to the book controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*new ビュー*/
+
+.new-div{
+  background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+
+}
+
+.new-h1{
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.new-storong{
+  font-weight: bold;
+}
+
+.new-p{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
+.new-span:visited {
+    color: #666;
+}
+
+/*newビューおしまい*/
+
+
+/* indexビュー*/
+.index-body{
+background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+p#notice{
+  color: green;
+  font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.index-h1{
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.index-table{
+  display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.index-thead{
+display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.index-tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.index-th{
+  display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.index-tbody{
+  display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.index-td{
+  padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.index-h2{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.index-form{
+  display: block;
+    margin-top: 0em;
+}
+/* indexビューおしまい*/
+
+/* showビュー*/
+.show-body{
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+p#show-notice{
+  color: green;
+}
+
+.show-p{
+      font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.show-strong{
+  font-weight: bold;
+}
+
+.show-a:visit{
+  color:#666;
+}
+
+
+/* showビューおしまい*/
+
+
+/* editビュー*/
+.edit-body{
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.edit-h1{
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.edit-form{
+  display: block;
+  margin-top: 0em;
+}
+
+.edit-title{
+  margin-bottom: 10px;
+}
+
+.edit-h4{
+  display: block;
+}
+
+.edit-title-text{
+  
+}
+
+.edit-body-text{
+margin: 0px;
+    width: 171px;
+    height: 24px;
+
+}
+
+.dlock{
+  display:inline-block;
+}
+/* editビューおしまい*/

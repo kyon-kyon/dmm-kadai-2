@@ -1,0 +1,20 @@
+<div class="show-body">
+    <p id="show-notice"></p>
+
+<p class="show-p">
+  <strong class="show-strong">Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p class="show-p"> 
+  <strong class="show-strong">Body:</strong>
+  <%= @book.body %>
+</p>
+
+<%= link_to "Edit", edit_book_path(@book),{class: "show-link-edit"} %>
+<p class="show-a">|</p>
+<%= link_to "Back", books_path,{class: "show-link-back"} %>
+
+</div>
+
+
